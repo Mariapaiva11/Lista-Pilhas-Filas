@@ -1,4 +1,4 @@
-Lista 1 – Pilhas e filas;
+Lista 1 â€“ Pilhas e filas;
 
 
 
@@ -72,7 +72,7 @@ public:
             cout << "Nao tem nenhuma info na frente" <<"\n\n";
         }
         else {
-            cout << "O info do fim é " << this -> verso -> info <<"|\n";
+            cout << "O info do fim Ã© " << this -> verso -> info <<"|\n";
             }
         }
 
@@ -116,7 +116,7 @@ void enfila(int valor) {
 
 void topo() {
     if (Fila1.size() > 0) {
-        cout << "\nO topo da pilha é: "<< Fila1.back() << endl;
+        cout << "\nO topo da pilha Ã©: "<< Fila1.back() << endl;
 
     } else {
         cout << "\nNao existe itens na pilha!\n";
@@ -526,7 +526,7 @@ int main(void){
     p3.empilha("4");
     p3.empilha("5");
 
-    //A troca de ordem de p1 será usando uma fila
+    //A troca de ordem de p1 serÃ¡ usando uma fila
 
     cout << "Pilha p1: ";
     for(i=0; i<p1.n; i++){
@@ -575,7 +575,7 @@ int main(void){
     }
     cout <<"\n";
 
-    //A troca de ordem de p3 será usando uma pilha
+    //A troca de ordem de p3 serÃ¡ usando uma pilha
     noPilha* pi;
     int k=p3.n - 1;
     int cont = 0;
@@ -604,7 +604,7 @@ int main(void){
     }
     cout << "\n\n";
 }
-Questão 5)
+QuestÃ£o 5)
 a)
 #include <iostream>
 #include <string>
@@ -889,7 +889,7 @@ int main(void){
     printFila(&f1);
     
     cout << "\n\n";
-Questão 6)
+QuestÃ£o 6)
 #include <iostream>
 #include <string>
 #include <stdio.h>
